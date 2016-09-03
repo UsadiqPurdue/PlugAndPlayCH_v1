@@ -1,0 +1,578 @@
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('calc_det_response', '/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/calc_det_response.m', 38)" style="font-weight:bold">calc_det_response</a> (<a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/calc_det_response.m',38,0)">line 38</a>)
+
+In <a href="matlab:helpUtils.errorDocCallback('ComputeAMatrix', '/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/ComputeAMatrix.m', 6)" style="font-weight:bold">ComputeAMatrix</a> (<a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/ComputeAMatrix.m',6,0)">line 6</a>)
+det_resp = calc_det_response(pix_profile,sino,geom);
+
+In <a href="matlab:helpUtils.errorDocCallback('CHPlugAndPlayInitProgViewsILaced', '/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CHPlugAndPlayInitProgViewsILaced.m', 74)" style="font-weight:bold">CHPlugAndPlayInitProgViewsILaced</a> (<a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CHPlugAndPlayInitProgViewsILaced.m',74,0)">line 74</a>)
+        Amatrix=ComputeAMatrix(sino,geom);
+
+In <a href="matlab:helpUtils.errorDocCallback('CH_PnP_ProjViewsIlaced_v10', '/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m', 111)" style="font-weight:bold">CH_PnP_ProjViewsIlaced_v10</a> (<a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',111,0)">line 111</a>)
+[SubFrame,UpSampledMap]=CHPlugAndPlayInitProgViewsILaced(img_orig,ResultsFolder,rr,theta,lam0,ups_rate,K,FinSF,MINTH,MAXTH);} 
+edit ADMM_Core3_CH_v11
+clc;CH_PnP_ProjViewsIlaced_v10(8,6,4,8,0,179,'Comparisons-finale','ObjectDenoiseMore',0.01,1e-3,1,500);
+{Warning: Directory already exists.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',59,1)">CH_PnP_ProjViewsIlaced_v10 at 59</a>} 
+{Warning: Directory already exists.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',75,1)">CH_PnP_ProjViewsIlaced_v10 at 75</a>} 
+{Warning: Size vector should be a row vector with integer elements.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_gen_x_fft_recon_01_circ256_subsample_v9.m',46,1)">CH_gen_x_fft_recon_01_circ256_subsample_v9 at 46</a>
+  In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',98,1)">CH_PnP_ProjViewsIlaced_v10 at 98</a>} 
+{Warning: Size vector should be a row vector with integer elements.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_gen_x_fft_recon_01_circ256_subsample_v9.m',47,1)">CH_gen_x_fft_recon_01_circ256_subsample_v9 at 47</a>
+  In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',98,1)">CH_PnP_ProjViewsIlaced_v10 at 98</a>} 
+{Error using <a href="matlab:helpUtils.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file AL_Data.mat: No such file or directory.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('SetKParamsIL', '/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/SetKParamsIL.m', 3)" style="font-weight:bold">SetKParamsIL</a> (<a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/SetKParamsIL.m',3,0)">line 3</a>)
+load('AL_Data.mat');%% Denoising parameter for ALL algorithms
+
+Error in <a href="matlab:helpUtils.errorDocCallback('CH_PnP_ProjViewsIlaced_v10', '/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m', 116)" style="font-weight:bold">CH_PnP_ProjViewsIlaced_v10</a> (<a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',116,0)">line 116</a>)
+[SubFrame]=SetKParamsIL(SubFrame,mode);
+} 
+helpUtils.errorDocCallback('CH_PnP_ProjViewsIlaced_v10', '/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m', 116)
+edit SetKParamsIL
+clc;CH_PnP_ProjViewsIlaced_v10(8,6,4,8,0,179,'Comparisons-finale','ObjectDenoiseMore',0.01,1e-3,2,500);
+{Warning: Directory already exists.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',59,1)">CH_PnP_ProjViewsIlaced_v10 at 59</a>} 
+{Warning: Directory already exists.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',75,1)">CH_PnP_ProjViewsIlaced_v10 at 75</a>} 
+{Warning: Size vector should be a row vector with integer elements.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_gen_x_fft_recon_01_circ256_subsample_v9.m',46,1)">CH_gen_x_fft_recon_01_circ256_subsample_v9 at 46</a>
+  In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',98,1)">CH_PnP_ProjViewsIlaced_v10 at 98</a>} 
+{Warning: Size vector should be a row vector with integer elements.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_gen_x_fft_recon_01_circ256_subsample_v9.m',47,1)">CH_gen_x_fft_recon_01_circ256_subsample_v9 at 47</a>
+  In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',98,1)">CH_PnP_ProjViewsIlaced_v10 at 98</a>} 
+Saving results in/Users/USadiq/Results/CHPhantomDataResults/Comparisons-finale//02-Sep-2016_BM4D/IViewsBRev_Ang8r6K4Nt193MaxTH179gamma0.01sig_H0.001
+clc;CH_PnP_ProjViewsIlaced_v10(8,6,4,8,0,179,'Comparisons-finale','ObjectDenoiseMore',0.01,1e-3,1,500);
+{Warning: Directory already exists.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',59,1)">CH_PnP_ProjViewsIlaced_v10 at 59</a>} 
+{Warning: Directory already exists.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',75,1)">CH_PnP_ProjViewsIlaced_v10 at 75</a>} 
+{Warning: Size vector should be a row vector with integer elements.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_gen_x_fft_recon_01_circ256_subsample_v9.m',46,1)">CH_gen_x_fft_recon_01_circ256_subsample_v9 at 46</a>
+  In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',98,1)">CH_PnP_ProjViewsIlaced_v10 at 98</a>} 
+{Warning: Size vector should be a row vector with integer elements.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_gen_x_fft_recon_01_circ256_subsample_v9.m',47,1)">CH_gen_x_fft_recon_01_circ256_subsample_v9 at 47</a>
+  In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',98,1)">CH_PnP_ProjViewsIlaced_v10 at 98</a>} 
+Saving results in/Users/USadiq/Results/CHPhantomDataResults/Comparisons-finale//02-Sep-2016_TV3D/IViewsBRev_Ang8r6K4Nt193MaxTH179gamma0.01sig_H0.001/Mu_500/{Warning: Directory already exists.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/ADMM_Core3_CH_v11.m',34,1)">ADMM_Core3_CH_v11 at 34</a>
+  In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',131,1)">CH_PnP_ProjViewsIlaced_v10 at 131</a>} 
+PnP Iteration 1Time taken by Data Term Opt. 1.002182e+02
+Time taken by Data Term Opt. 1.007409e+02
+Time taken by Data Term Opt. 1.001493e+02
+Time taken by Data Term Opt. 9.920626e+01
+Time taken by Data Term Opt. 1.020379e+02
+Time taken by Data Term Opt. 1.038971e+02
+Time taken by Data Term Opt. 1.018311e+02
+Time taken by Data Term Opt. 9.919104e+01
+Time taken by Data Term Opt. 9.863187e+01
+Time taken by Data Term Opt. 9.840376e+01
+Time taken by Data Term Opt. 9.848541e+01
+Time taken by Data Term Opt. 9.863832e+01
+Time taken by Data Term Opt. 9.829276e+01
+Time taken by Data Term Opt. 9.846573e+01
+Time taken by Data Term Opt. 9.874313e+01
+Time taken by Data Term Opt. 9.867909e+01
+Time taken by Data Term Opt. 9.891832e+01
+Time taken by Data Term Opt. 9.878943e+01
+Time taken by Data Term Opt. 9.824453e+01
+Time taken by Data Term Opt. 9.840460e+01
+Time taken by Data Term Opt. 9.873008e+01
+Time taken by Data Term Opt. 9.857371e+01
+Time taken by Data Term Opt. 9.847910e+01
+Time taken by Data Term Opt. 9.869339e+01
+Time taken by Data Term Opt. 9.832458e+01
+Time taken by Data Term Opt. 9.861313e+01
+Time taken by Data Term Opt. 9.845179e+01
+Time taken by Data Term Opt. 9.858839e+01
+Time taken by Data Term Opt. 9.838919e+01
+Time taken by Data Term Opt. 9.849360e+01
+Time taken by Data Term Opt. 9.847780e+01
+Time taken by Data Term Opt. 9.884306e+01
+Denoising iteration 1...
+PnP Iteration 2Time taken by Data Term Opt. 9.920147e+01
+Time taken by Data Term Opt. 9.901571e+01
+Time taken by Data Term Opt. 9.914821e+01
+Time taken by Data Term Opt. 9.892106e+01
+Time taken by Data Term Opt. 9.880640e+01
+Time taken by Data Term Opt. 9.898835e+01
+Time taken by Data Term Opt. 9.886530e+01
+Time taken by Data Term Opt. 9.917847e+01
+Time taken by Data Term Opt. 9.869856e+01
+Time taken by Data Term Opt. 9.885921e+01
+Time taken by Data Term Opt. 9.878710e+01
+Time taken by Data Term Opt. 9.868227e+01
+Time taken by Data Term Opt. 9.869492e+01
+Time taken by Data Term Opt. 9.863943e+01
+Time taken by Data Term Opt. 9.854678e+01
+Time taken by Data Term Opt. 9.841705e+01
+Time taken by Data Term Opt. 9.842237e+01
+Time taken by Data Term Opt. 9.858507e+01
+Time taken by Data Term Opt. 9.871451e+01
+Time taken by Data Term Opt. 9.862327e+01
+Time taken by Data Term Opt. 9.866387e+01
+Time taken by Data Term Opt. 9.863434e+01
+Time taken by Data Term Opt. 9.853916e+01
+Time taken by Data Term Opt. 9.864455e+01
+Time taken by Data Term Opt. 9.869116e+01
+Time taken by Data Term Opt. 9.864538e+01
+Time taken by Data Term Opt. 9.873255e+01
+Time taken by Data Term Opt. 9.860813e+01
+Time taken by Data Term Opt. 9.857323e+01
+Time taken by Data Term Opt. 9.885245e+01
+Time taken by Data Term Opt. 9.878319e+01
+Time taken by Data Term Opt. 9.855369e+01
+Denoising iteration 2...
+PnP Iteration 3Time taken by Data Term Opt. 9.929536e+01
+Time taken by Data Term Opt. 9.902408e+01
+Time taken by Data Term Opt. 9.880688e+01
+Time taken by Data Term Opt. 9.877445e+01
+Time taken by Data Term Opt. 9.908189e+01
+Time taken by Data Term Opt. 9.855855e+01
+Time taken by Data Term Opt. 9.871336e+01
+Time taken by Data Term Opt. 9.893695e+01
+Time taken by Data Term Opt. 9.886004e+01
+Time taken by Data Term Opt. 9.880334e+01
+Time taken by Data Term Opt. 9.857574e+01
+Time taken by Data Term Opt. 9.897461e+01
+Time taken by Data Term Opt. 9.885908e+01
+Time taken by Data Term Opt. 9.849616e+01
+Time taken by Data Term Opt. 9.876418e+01
+Time taken by Data Term Opt. 9.907718e+01
+Time taken by Data Term Opt. 9.899793e+01
+Time taken by Data Term Opt. 9.861912e+01
+Time taken by Data Term Opt. 9.857685e+01
+Time taken by Data Term Opt. 9.898525e+01
+Time taken by Data Term Opt. 9.896714e+01
+Time taken by Data Term Opt. 9.872724e+01
+Time taken by Data Term Opt. 9.896940e+01
+Time taken by Data Term Opt. 9.924781e+01
+Time taken by Data Term Opt. 9.911651e+01
+Time taken by Data Term Opt. 9.862511e+01
+Time taken by Data Term Opt. 9.863027e+01
+Time taken by Data Term Opt. 9.904502e+01
+Time taken by Data Term Opt. 9.885152e+01
+Time taken by Data Term Opt. 9.855456e+01
+Time taken by Data Term Opt. 9.849859e+01
+Time taken by Data Term Opt. 9.890324e+01
+Denoising iteration 3...
+PnP Iteration 4Time taken by Data Term Opt. 9.882340e+01
+Time taken by Data Term Opt. 9.854032e+01
+Time taken by Data Term Opt. 9.859612e+01
+Time taken by Data Term Opt. 9.890466e+01
+Time taken by Data Term Opt. 9.873106e+01
+Time taken by Data Term Opt. 9.880602e+01
+Time taken by Data Term Opt. 9.854562e+01
+Time taken by Data Term Opt. 9.878458e+01
+Time taken by Data Term Opt. 9.858030e+01
+Time taken by Data Term Opt. 9.836373e+01
+Time taken by Data Term Opt. 9.880581e+01
+Time taken by Data Term Opt. 9.887287e+01
+Time taken by Data Term Opt. 9.887162e+01
+Time taken by Data Term Opt. 9.875259e+01
+Time taken by Data Term Opt. 9.863450e+01
+Time taken by Data Term Opt. 9.885255e+01
+Time taken by Data Term Opt. 9.874839e+01
+Time taken by Data Term Opt. 1.044683e+02
+Time taken by Data Term Opt. 1.073266e+02
+Time taken by Data Term Opt. 1.078484e+02
+Time taken by Data Term Opt. 1.067930e+02
+Time taken by Data Term Opt. 1.073362e+02
+Time taken by Data Term Opt. 1.076332e+02
+Time taken by Data Term Opt. 1.072529e+02
+Time taken by Data Term Opt. 1.072865e+02
+Time taken by Data Term Opt. 1.076842e+02
+Time taken by Data Term Opt. 1.076286e+02
+Time taken by Data Term Opt. 1.064018e+02
+Time taken by Data Term Opt. 1.078850e+02
+Time taken by Data Term Opt. 1.054834e+02
+Time taken by Data Term Opt. 1.002199e+02
+Time taken by Data Term Opt. 1.071105e+02
+Denoising iteration 4...
+PnP Iteration 5Time taken by Data Term Opt. 1.082988e+02
+Time taken by Data Term Opt. 1.072190e+02
+Time taken by Data Term Opt. 1.069842e+02
+Time taken by Data Term Opt. 1.070446e+02
+Time taken by Data Term Opt. 1.067555e+02
+Time taken by Data Term Opt. 1.066541e+02
+Time taken by Data Term Opt. 1.064038e+02
+Time taken by Data Term Opt. 1.063744e+02
+Time taken by Data Term Opt. 1.066302e+02
+Time taken by Data Term Opt. 1.067441e+02
+Time taken by Data Term Opt. 1.068002e+02
+Time taken by Data Term Opt. 1.060310e+02
+Time taken by Data Term Opt. 1.063120e+02
+Time taken by Data Term Opt. 1.064840e+02
+Time taken by Data Term Opt. 1.071888e+02
+Time taken by Data Term Opt. 1.060294e+02
+Time taken by Data Term Opt. 1.067081e+02
+Time taken by Data Term Opt. 1.065172e+02
+Time taken by Data Term Opt. 1.069031e+02
+Time taken by Data Term Opt. 1.065504e+02
+Time taken by Data Term Opt. 1.062804e+02
+Time taken by Data Term Opt. 1.036917e+02
+Time taken by Data Term Opt. 9.886315e+01
+Time taken by Data Term Opt. 9.844193e+01
+Time taken by Data Term Opt. 9.844167e+01
+Time taken by Data Term Opt. 9.874114e+01
+Time taken by Data Term Opt. 9.876564e+01
+Time taken by Data Term Opt. 9.835435e+01
+Time taken by Data Term Opt. 9.833575e+01
+Time taken by Data Term Opt. 9.832462e+01
+Time taken by Data Term Opt. 9.874143e+01
+Time taken by Data Term Opt. 9.841316e+01
+Denoising iteration 5...
+PnP Iteration 6Time taken by Data Term Opt. 9.889202e+01
+Time taken by Data Term Opt. 9.895825e+01
+Time taken by Data Term Opt. 9.882476e+01
+Time taken by Data Term Opt. 9.864944e+01
+Time taken by Data Term Opt. 9.873279e+01
+Time taken by Data Term Opt. 9.872196e+01
+Time taken by Data Term Opt. 9.885947e+01
+Time taken by Data Term Opt. 9.872658e+01
+Time taken by Data Term Opt. 9.860975e+01
+Time taken by Data Term Opt. 9.853408e+01
+Time taken by Data Term Opt. 9.889901e+01
+Time taken by Data Term Opt. 9.873674e+01
+Time taken by Data Term Opt. 9.871527e+01
+Time taken by Data Term Opt. 9.849172e+01
+Time taken by Data Term Opt. 9.890289e+01
+Time taken by Data Term Opt. 9.865094e+01
+Time taken by Data Term Opt. 9.888429e+01
+Time taken by Data Term Opt. 9.862407e+01
+Time taken by Data Term Opt. 9.882759e+01
+Time taken by Data Term Opt. 9.855006e+01
+Time taken by Data Term Opt. 9.882347e+01
+Time taken by Data Term Opt. 9.840009e+01
+Time taken by Data Term Opt. 9.878630e+01
+Time taken by Data Term Opt. 9.842206e+01
+Time taken by Data Term Opt. 9.844530e+01
+Time taken by Data Term Opt. 9.827797e+01
+Time taken by Data Term Opt. 9.888172e+01
+Time taken by Data Term Opt. 9.882531e+01
+Time taken by Data Term Opt. 9.889611e+01
+Time taken by Data Term Opt. 9.859113e+01
+Time taken by Data Term Opt. 9.881703e+01
+Time taken by Data Term Opt. 9.871233e+01
+Denoising iteration 6...
+PnP Iteration 7Time taken by Data Term Opt. 9.889682e+01
+Time taken by Data Term Opt. 9.889728e+01
+Time taken by Data Term Opt. 9.908592e+01
+Time taken by Data Term Opt. 9.922925e+01
+Time taken by Data Term Opt. 9.888261e+01
+Time taken by Data Term Opt. 9.888331e+01
+Time taken by Data Term Opt. 9.895057e+01
+Time taken by Data Term Opt. 9.890177e+01
+Time taken by Data Term Opt. 9.859334e+01
+Time taken by Data Term Opt. 9.868763e+01
+Time taken by Data Term Opt. 9.898916e+01
+Time taken by Data Term Opt. 9.883484e+01
+Time taken by Data Term Opt. 9.881635e+01
+Time taken by Data Term Opt. 9.848750e+01
+Time taken by Data Term Opt. 9.894907e+01
+Time taken by Data Term Opt. 9.909104e+01
+Time taken by Data Term Opt. 9.878371e+01
+Time taken by Data Term Opt. 9.887829e+01
+Time taken by Data Term Opt. 9.897501e+01
+Time taken by Data Term Opt. 9.901313e+01
+Time taken by Data Term Opt. 9.879537e+01
+Time taken by Data Term Opt. 9.870400e+01
+Time taken by Data Term Opt. 9.891136e+01
+Time taken by Data Term Opt. 9.903718e+01
+Time taken by Data Term Opt. 9.894716e+01
+Time taken by Data Term Opt. 9.876054e+01
+Time taken by Data Term Opt. 9.916077e+01
+Time taken by Data Term Opt. 9.888813e+01
+Time taken by Data Term Opt. 9.859056e+01
+Time taken by Data Term Opt. 9.861552e+01
+Time taken by Data Term Opt. 9.895861e+01
+Time taken by Data Term Opt. 9.893440e+01
+Denoising iteration 7...
+PnP Iteration 8Time taken by Data Term Opt. 9.888750e+01
+Time taken by Data Term Opt. 9.877709e+01
+Time taken by Data Term Opt. 9.889084e+01
+Time taken by Data Term Opt. 9.897737e+01
+Time taken by Data Term Opt. 9.869850e+01
+Time taken by Data Term Opt. 9.892070e+01
+Time taken by Data Term Opt. 9.896617e+01
+Time taken by Data Term Opt. 9.877197e+01
+Time taken by Data Term Opt. 9.851750e+01
+Time taken by Data Term Opt. 9.882616e+01
+Time taken by Data Term Opt. 9.882462e+01
+Time taken by Data Term Opt. 9.859465e+01
+Time taken by Data Term Opt. 9.864131e+01
+Time taken by Data Term Opt. 9.869025e+01
+Time taken by Data Term Opt. 9.875021e+01
+Time taken by Data Term Opt. 9.864938e+01
+Time taken by Data Term Opt. 9.851273e+01
+Time taken by Data Term Opt. 9.849428e+01
+Time taken by Data Term Opt. 9.869434e+01
+Time taken by Data Term Opt. 9.861601e+01
+Time taken by Data Term Opt. 9.877964e+01
+Time taken by Data Term Opt. 9.888637e+01
+Time taken by Data Term Opt. 9.883128e+01
+Time taken by Data Term Opt. 9.873309e+01
+Time taken by Data Term Opt. 9.870095e+01
+Time taken by Data Term Opt. 9.876630e+01
+Time taken by Data Term Opt. 9.879619e+01
+Time taken by Data Term Opt. 9.863967e+01
+Time taken by Data Term Opt. 9.854214e+01
+Time taken by Data Term Opt. 9.862423e+01
+Time taken by Data Term Opt. 9.877221e+01
+Time taken by Data Term Opt. 9.858172e+01
+Denoising iteration 8...
+PnP Iteration 9Time taken by Data Term Opt. 9.857111e+01
+Time taken by Data Term Opt. 9.888148e+01
+Time taken by Data Term Opt. 9.848594e+01
+Time taken by Data Term Opt. 9.896145e+01
+Time taken by Data Term Opt. 9.876628e+01
+Time taken by Data Term Opt. 9.897005e+01
+Time taken by Data Term Opt. 9.836284e+01
+Time taken by Data Term Opt. 9.884072e+01
+Time taken by Data Term Opt. 9.879559e+01
+Time taken by Data Term Opt. 9.894832e+01
+Time taken by Data Term Opt. 9.869094e+01
+Time taken by Data Term Opt. 9.887338e+01
+Time taken by Data Term Opt. 9.847760e+01
+Time taken by Data Term Opt. 9.878646e+01
+Time taken by Data Term Opt. 9.855542e+01
+Time taken by Data Term Opt. 9.876507e+01
+Time taken by Data Term Opt. 9.828240e+01
+Time taken by Data Term Opt. 9.838033e+01
+Time taken by Data Term Opt. 9.846066e+01
+Time taken by Data Term Opt. 9.863594e+01
+Time taken by Data Term Opt. 9.855730e+01
+Time taken by Data Term Opt. 9.850723e+01
+Time taken by Data Term Opt. 9.880655e+01
+Time taken by Data Term Opt. 9.869537e+01
+Time taken by Data Term Opt. 9.866576e+01
+Time taken by Data Term Opt. 9.842349e+01
+Time taken by Data Term Opt. 9.881053e+01
+Time taken by Data Term Opt. 9.872639e+01
+Time taken by Data Term Opt. 9.873853e+01
+Time taken by Data Term Opt. 9.830247e+01
+Time taken by Data Term Opt. 9.849519e+01
+Time taken by Data Term Opt. 9.936404e+01
+Denoising iteration 9...
+PnP Iteration 10Time taken by Data Term Opt. 9.872257e+01
+Time taken by Data Term Opt. 9.916971e+01
+Time taken by Data Term Opt. 9.872560e+01
+Time taken by Data Term Opt. 9.871585e+01
+Time taken by Data Term Opt. 9.862366e+01
+Time taken by Data Term Opt. 9.907554e+01
+Time taken by Data Term Opt. 9.889375e+01
+Time taken by Data Term Opt. 9.862261e+01
+Time taken by Data Term Opt. 9.859463e+01
+Time taken by Data Term Opt. 9.893292e+01
+Time taken by Data Term Opt. 9.866201e+01
+Time taken by Data Term Opt. 9.864967e+01
+Time taken by Data Term Opt. 9.842191e+01
+Time taken by Data Term Opt. 9.896869e+01
+Time taken by Data Term Opt. 9.878395e+01
+Time taken by Data Term Opt. 9.844491e+01
+Time taken by Data Term Opt. 9.840079e+01
+Time taken by Data Term Opt. 9.896363e+01
+Time taken by Data Term Opt. 9.872732e+01
+Time taken by Data Term Opt. 9.849505e+01
+Time taken by Data Term Opt. 9.838743e+01
+Time taken by Data Term Opt. 9.888748e+01
+Time taken by Data Term Opt. 9.870954e+01
+Time taken by Data Term Opt. 9.832388e+01
+Time taken by Data Term Opt. 9.848863e+01
+Time taken by Data Term Opt. 9.894638e+01
+Time taken by Data Term Opt. 9.865278e+01
+Time taken by Data Term Opt. 9.851128e+01
+Time taken by Data Term Opt. 9.841345e+01
+Time taken by Data Term Opt. 9.892123e+01
+Time taken by Data Term Opt. 9.865212e+01
+Time taken by Data Term Opt. 9.855330e+01
+Denoising iteration 10...
+PnP Iteration 11Time taken by Data Term Opt. 9.857746e+01
+Time taken by Data Term Opt. 9.882419e+01
+Time taken by Data Term Opt. 9.883802e+01
+Time taken by Data Term Opt. 9.859823e+01
+Time taken by Data Term Opt. 9.894124e+01
+Time taken by Data Term Opt. 9.890835e+01
+Time taken by Data Term Opt. 9.890341e+01
+Time taken by Data Term Opt. 9.879256e+01
+Time taken by Data Term Opt. 9.847258e+01
+Time taken by Data Term Opt. 9.898770e+01
+Time taken by Data Term Opt. 9.928366e+01
+Time taken by Data Term Opt. 9.839902e+01
+Time taken by Data Term Opt. 9.874826e+01
+Time taken by Data Term Opt. 9.882357e+01
+Time taken by Data Term Opt. 9.912871e+01
+Time taken by Data Term Opt. 9.864184e+01
+Time taken by Data Term Opt. 9.856516e+01
+Time taken by Data Term Opt. 9.874901e+01
+Time taken by Data Term Opt. 9.895510e+01
+Time taken by Data Term Opt. 9.847992e+01
+Time taken by Data Term Opt. 9.891965e+01
+Time taken by Data Term Opt. 9.889267e+01
+Time taken by Data Term Opt. 9.898411e+01
+Time taken by Data Term Opt. 9.859847e+01
+Time taken by Data Term Opt. 9.865423e+01
+Time taken by Data Term Opt. 9.882152e+01
+Time taken by Data Term Opt. 9.888279e+01
+Time taken by Data Term Opt. 9.866062e+01
+Time taken by Data Term Opt. 9.861849e+01
+Time taken by Data Term Opt. 9.902717e+01
+Time taken by Data Term Opt. 9.906374e+01
+Time taken by Data Term Opt. 1.026611e+02
+Denoising iteration 11...
+PnP Iteration 12Time taken by Data Term Opt. 1.016217e+02
+Time taken by Data Term Opt. 1.054053e+02
+Time taken by Data Term Opt. 1.050759e+02
+Time taken by Data Term Opt. 1.044767e+02
+Time taken by Data Term Opt. 1.054637e+02
+Time taken by Data Term Opt. 1.050889e+02
+Time taken by Data Term Opt. 1.052168e+02
+Time taken by Data Term Opt. 1.052226e+02
+Time taken by Data Term Opt. 1.051855e+02
+Time taken by Data Term Opt. 1.058040e+02
+Time taken by Data Term Opt. 1.075077e+02
+Time taken by Data Term Opt. 1.094224e+02
+Time taken by Data Term Opt. 1.061414e+02
+Time taken by Data Term Opt. 1.051774e+02
+Time taken by Data Term Opt. 1.055455e+02
+TimSaving results in/Users/USadiq/Results/CHPhantomDataResults/Comparisons-finale//02-Sep-2016_BM4D/IViewsBRev_Ang8r6K4Nt193MaxTH179gamma0.01sig_H0.001{Warning: Directory already exists.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/ADMM_Core3_CH_v11.m',34,1)">ADMM_Core3_CH_v11 at 34</a>
+  In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',133,1)">CH_PnP_ProjViewsIlaced_v10 at 133</a>} 
+{Index exceeds matrix dimensions.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('ADMM_Core3_CH_v11', '/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/ADMM_Core3_CH_v11.m', 41)" style="font-weight:bold">ADMM_Core3_CH_v11</a> (<a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/ADMM_Core3_CH_v11.m',41,0)">line 41</a>)
+TV_mu=varargin{1};TV_lambda=100;TV_it=20;
+
+Error in <a href="matlab:helpUtils.errorDocCallback('CH_PnP_ProjViewsIlaced_v10', '/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m', 133)" style="font-weight:bold">CH_PnP_ProjViewsIlaced_v10</a> (<a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',133,0)">line 133</a>)
+       [~,~,x_hat,v_hat,Admm_d,Admm_h]=ADMM_Core3_CH_v11(img_orig,SubFrame,ResultsFolder,FinSF,JFunc,sig,sig_H,a,b,mode,15);} 
+edit GenDenoisingPlot.m
+edit GenDenoisingCosts.m
+edit GenDenoisingCostsPlot.m
+edit HPlot
+edit GenDenoisingCostsPlot.m
+clc;CH_PnP_ProjViewsIlaced_v10(8,6,4,8,0,179,'Comparisons-finale','ObjectDenoiseMore',0.01,1e-3,1,500);
+{Warning: Directory already exists.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',59,1)">CH_PnP_ProjViewsIlaced_v10 at 59</a>} 
+{Warning: Size vector should be a row vector with integer elements.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_gen_x_fft_recon_01_circ256_subsample_v9.m',46,1)">CH_gen_x_fft_recon_01_circ256_subsample_v9 at 46</a>
+  In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',98,1)">CH_PnP_ProjViewsIlaced_v10 at 98</a>} 
+{Warning: Size vector should be a row vector with integer elements.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_gen_x_fft_recon_01_circ256_subsample_v9.m',47,1)">CH_gen_x_fft_recon_01_circ256_subsample_v9 at 47</a>
+  In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',98,1)">CH_PnP_ProjViewsIlaced_v10 at 98</a>} 
+e taken by Data Term Opt. 1.052577e+02
+Time taken by Data Term Opt. 1.053475e+02
+Time taken by Data Term Opt. 1.050189e+02
+Time taken by Data Term Opt. 1.059646e+02
+Time taken by Data Term Opt. 1.052821e+02
+Time taken by Data Term Opt. 1.079348e+02
+Time taken by Data Term Opt. 1.163273e+02
+Time taken by Data Term Opt. 1.133724e+02
+Time taken by Data Term Opt. 1.047913e+02
+Time taken by Data Term Opt. 1.049327e+02
+Time taken by Data Term Opt. 1.046834e+02
+Time taken by Data Term Opt. 1.046619e+02
+Time taken by Data Term Opt. 1.029623e+02
+Time taken by Data Term Opt. 1.049521e+02
+Time taken by Data Term Opt. 1.050164e+02
+Time taken by Data Term Opt. 1.053087e+02
+Time taken by Data Term Opt. 1.048180e+02
+Denoising iteration 12...
+PnP Iteration 13Time taken by Data Term Opt. 1.049432e+02
+Time taken by Data Term Opt. 1.051875e+02
+Time taken by Data Term Opt. 1.052159e+02
+Time taken by Data Term Opt. 1.049558e+02
+Time taken by Data Term Opt. 1.049703e+02
+Time taken by Data Term Opt. 1.049910e+02
+Time taken by Data Term Opt. 1.005744e+02
+Time taken by Data Term Opt. 9.900578e+01
+Time taken by Data Term Opt. 9.933406e+01
+Time taken by Data Term Opt. 9.902430e+01
+Time taken by Data Term Opt. 9.909945e+01
+Time taken by Data Term Opt. 9.885764e+01
+Time taken by Data Term Opt. 9.917494e+01
+Time taken by Data Term Opt. 9.890998e+01
+Time taken by Data Term Opt. 9.898677e+01
+Time taken by Data Term Opt. 9.894416e+01
+Time taken by Data Term Opt. 9.900112e+01
+Time taken by Data Term Opt. 9.905928e+01
+Time taken by Data Term Opt. 9.915471e+01
+Time taken by Data Term Opt. 9.886995e+01
+Time taken by Data Term Opt. 9.914370e+01
+Time taken by Data Term Opt. 9.930437e+01
+Time taken by Data Term Opt. 9.902686e+01
+Time taken by Data Term Opt. 9.875742e+01
+Time taken by Data Term Opt. 9.910355e+01
+Time taken by Data Term Opt. 9.929065e+01
+Time taken by Data Term Opt. 9.921354e+01
+Time taken by Data Term Opt. 9.879534e+01
+Time taken by Data Term Opt. 9.949856e+01
+Time taken by Data Term Opt. 9.909746e+01
+Time taken by Data Term Opt. 9.910067e+01
+Time taken by Data Term Opt. 9.906510e+01
+Denoising iteration 13...
+PnP Iteration 14Time taken by Data Term Opt. 9.918824e+01
+Time taken by Data Term Opt. 9.909119e+01
+Time taken by Data Term Opt. 9.863990e+01
+Time taken by Data Term Opt. 9.908880e+01
+Time taken by Data Term Opt. 9.898463e+01
+Time taken by Data Term Opt. 9.934703e+01
+Time taken by Data Term Opt. 9.888483e+01
+Time taken by Data Term Opt. 9.907752e+01
+Time taken by Data Term Opt. 9.885189e+01
+Time taken by Data Term Opt. 9.927527e+01
+Time taken by Data Term Opt. 9.903233e+01
+Time taken by Data Term Opt. 9.919140e+01
+Time taken by Data Term Opt. 9.854787e+01
+Time taken by Data Term Opt. 9.860102e+01
+Time taken by Data Term Opt. 9.881644e+01
+Time taken by Data Term Opt. 9.889306e+01
+Time taken by Data Term Opt. 9.895485e+01
+Time taken by Data Term Opt. 9.918361e+01
+Time taken by Data Term Opt. 9.884218e+01
+Time taken by Data Term Opt. 9.886868e+01
+Time taken by Data Term Opt. 9.871328e+01
+Time taken by Data Term Opt. 9.905341e+01
+Time taken by Data Term Opt. 9.884655e+01
+Time taken by Data Term Opt. 9.896313e+01
+Time taken by Data Term Opt. 9.865786e+01
+Time taken by Data Term Opt. 9.898226e+01
+Time taken by Data Term Opt. 9.875149e+01
+Time taken by Data Term Opt. 9.917925e+01
+Time taken by Data Term Opt. 9.878165e+01
+Time taken by Data Term Opt. 9.920612e+01
+Time taken by Data Term Opt. 9.888842e+01
+Time taken by Data Term Opt. 9.899528e+01
+Denoising iteration 14...
+PnP Iteration 15Time taken by Data Term Opt. 9.947711e+01
+Time taken by Data Term Opt. 9.893122e+01
+Time taken by Data Term Opt. 9.955303e+01
+Time taken by Data Term Opt. 9.900539e+01
+Time taken by Data Term Opt. 9.913488e+01
+Time taken by Data Term Opt. 9.912069e+01
+Time taken by Data Term Opt. 9.971312e+01
+Time taken by Data Term Opt. 9.923154e+01
+Time taken by Data Term Opt. 9.928029e+01
+Time taken by Data Term Opt. 9.914925e+01
+Time taken by Data Term Opt. 9.911757e+01
+Time taken by Data Term Opt. 9.933797e+01
+Time taken by Data Term Opt. 9.964099e+01
+Time taken by Data Term Opt. 9.865072e+01
+Time taken by Data Term Opt. 9.936362e+01
+Time taken by Data Term Opt. 9.906129e+01
+Time taken by Data Term Opt. 9.927040e+01
+Time taken by Data Term Opt. 9.924666e+01
+Time taken by Data Term Opt. 9.917141e+01
+Time taken by Data Term Opt. 9.903289e+01
+Time taken by Data Term Opt. 9.930862e+01
+Time taken by Data Term Opt. 9.917359e+01
+Time taken by Data Term Opt. 9.921756e+01
+Time taken by Data Term Opt. 9.901335e+01
+Time taken by Data Term Opt. 9.919902e+01
+Time taken by Data Term Opt. 9.914289e+01
+Time taken by Data Term Opt. 9.937276e+01
+Time taken by Data Term Opt. 9.904117e+01
+Time taken by Data Term Opt. 9.898297e+01
+Time taken by Data Term Opt. 9.942210e+01
+Time taken by Data Term Opt. 9.933326e+01
+Time taken by Data Term Opt. 9.938576e+01
+Denoising iteration 15...

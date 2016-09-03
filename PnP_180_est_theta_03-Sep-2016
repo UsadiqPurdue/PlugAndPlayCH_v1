@@ -1,0 +1,22 @@
+Saving results in/Users/USadiq/Results/CHPhantomDataResults/Comparisons-finale//03-Sep-2016_BM4D/IViewsBRev_Ang8r6K4Nt193MaxTH179gamma0.01sig_H0.001{Warning: Directory already exists.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/ADMM_Core3_CH_v11.m',34,1)">ADMM_Core3_CH_v11 at 34</a>
+  In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',133,1)">CH_PnP_ProjViewsIlaced_v10 at 133</a>} 
+{Index exceeds matrix dimensions.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('ADMM_Core3_CH_v11', '/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/ADMM_Core3_CH_v11.m', 41)" style="font-weight:bold">ADMM_Core3_CH_v11</a> (<a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/ADMM_Core3_CH_v11.m',41,0)">line 41</a>)
+TV_mu=varargin{1};TV_lambda=100;TV_it=20;
+
+Error in <a href="matlab:helpUtils.errorDocCallback('CH_PnP_ProjViewsIlaced_v10', '/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m', 133)" style="font-weight:bold">CH_PnP_ProjViewsIlaced_v10</a> (<a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',133,0)">line 133</a>)
+       [~,~,x_hat,v_hat,Admm_d,Admm_h]=ADMM_Core3_CH_v11(img_orig,SubFrame,ResultsFolder,FinSF,JFunc,sig,sig_H,a,b,mode,15);} 
+edit ADMM_Core3_CH_v11.m
+clc;CH_PnP_ProjViewsIlaced_v10(8,6,4,8,0,179,'Comparisons-finale','ObjectDenoiseMore',0.01,1e-3,1,500);
+{Warning: Directory already exists.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',59,1)">CH_PnP_ProjViewsIlaced_v10 at 59</a>} 
+{Warning: Directory already exists.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',75,1)">CH_PnP_ProjViewsIlaced_v10 at 75</a>} 
+{Warning: Size vector should be a row vector with integer elements.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_gen_x_fft_recon_01_circ256_subsample_v9.m',46,1)">CH_gen_x_fft_recon_01_circ256_subsample_v9 at 46</a>
+  In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',98,1)">CH_PnP_ProjViewsIlaced_v10 at 98</a>} 
+{Warning: Size vector should be a row vector with integer elements.} 
+{> In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_gen_x_fft_recon_01_circ256_subsample_v9.m',47,1)">CH_gen_x_fft_recon_01_circ256_subsample_v9 at 47</a>
+  In <a href="matlab: opentoline('/Users/USadiq/Work/Code-META/MATLAB/PlugAndPlayCH_v1/CH_PnP_ProjViewsIlaced_v10.m',98,1)">CH_PnP_ProjViewsIlaced_v10 at 98</a>} 
