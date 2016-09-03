@@ -24,13 +24,8 @@ function [map_image3,params3,x_hat,v_hat,Admm_costd,tv,diffxv,muAll,cost_all_ICD
 %    5 - Otsu's segmentation
 %    6 - SMAP segmentation %DOES NOT WORK 5/4/2013
 %    7 - MAP segmentation
-
-
 iterdn=3;
-
-
 drct=cd;
-
 mkdir(foldername);
 
 
@@ -68,11 +63,7 @@ for ll=1:l
     d3(ll,:,:)=SubFrame(SFNo).Frames(FNo).D;
     
 end
-
-
-
 [m n l]=size(map_image3);
-
 iter=1;
 
 %% END OF DEBUG STATEMENTS
@@ -121,37 +112,20 @@ for PnPit=1:NIterPnP% && stop_crit > params.threshold)
         
         x_til(iter,:,:,ll)=params.v-params.u;
         
-        %         if(rem(ll,ups_rate)==1)
-        %            map_image3(:,:,ll) = DataTermOpt(map_image,sino,d3(ll,:,:),geom,params,Amatrix);
-        %            1;
-        %         else
-        %            map_image3(:,:,ll) = DataTermOpt(map_image,sino,d3(ll,:,:),geom,params,AmatrixZ);
-        %         end
-        
         AMat=strcat('A_SF',num2str(SFNo),'_F',num2str(FNo));
         
         load(strcat(foldername,AMat,'.mat'));
         
-        %         fprintf('\nAngles:%d\t',Angs(ll));
-        %         fprintf('\nAMatrix:%s\t',AMat);
-        
-        map_image3(:,:,ll) = DataTermOpt(map_image,sino,(1/(2*RMSE^2))*d3(ll,:,:),geom,params,Amatrix);
-        
-        %[imout,err,tv,lambda] = perform_tv_denoising(kparams.x,kparams);
-        
-        
+        map_image3(:,:,ll) = DataTermOpt(map_image,sino,(1/(2*RMSE^2))*d3(ll,:,:),geom,params,Amatrix);      
         
         clear(strcat(foldername,AMat,'.mat'));
         
         x_hat(iter,:,:,ll)=map_image3(:,:,ll);
         
-        
         [~,~,costd(ll)]= ADMM_data_cost(map_image,sino,d3(ll,:,:),params,Amatrix);
         
         options.null=0;
-        
-        
-        
+              
     end
     
     
@@ -179,8 +153,6 @@ for PnPit=1:NIterPnP% && stop_crit > params.threshold)
                 imout3(:,:,ll) = qGGMRFdenoise(img_in(:,:,ll),kparams);
                 
         end
-        
-        
     end
     
     switch mode
@@ -215,8 +187,7 @@ for PnPit=1:NIterPnP% && stop_crit > params.threshold)
                 Denoise_AL_Poly_For_PnP_Java128_v3_HUpdate_Costs_v10...
                 (JFunc,1,img_in,img_orig3,m,l,iterdn,sig,sig_H,foldername,...
                 a,b,300,ICDIters,HUpds);
-            
-            
+                        
     end
     
     save(strcat(foldername,'v_til.mat'),'v_tilda');
@@ -252,8 +223,7 @@ for PnPit=1:NIterPnP% && stop_crit > params.threshold)
         params=params3(ll,1);
         map_image=map_image3(:,:,ll);
         eps_primal = eps_primal+sum(abs(params.v(:)-map_image(:)))./sum(abs(map_image(:)));
-        eps_dual = eps_dual+sum(abs(params.v(:)-prev_v(:)))./sum((abs(prev_v(:))));
-        
+        eps_dual = eps_dual+sum(abs(params.v(:)-prev_v(:)))./sum((abs(prev_v(:))));        
     end
     
     eps_dual = sum(abs(params.v(:)-prev_v(:)))./sum((abs(prev_v(:))));
@@ -267,9 +237,7 @@ for PnPit=1:NIterPnP% && stop_crit > params.threshold)
     iter=iter+1;
     
     params.max_iter=PnPIters;
-    
-    
-    
+        
 end
 
 save(strcat(foldername,'PnPCosts.mat'),'tv','Admm_costd','TVDen');
